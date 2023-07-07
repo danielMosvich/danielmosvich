@@ -1,0 +1,33 @@
+.carrousel {
+  animation: 25s slide infinite linear;
+  cursor: default;
+}
+.slider-shadow::after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background: #f8f5ec;
+  background: linear-gradient(
+    90deg,
+    #f8f5ec 0%,
+    
+    rgba(255, 4, 29, 0) 10%,
+    rgba(255, 4, 29, 0) 50%,
+    rgba(255, 4, 29, 0) 90%,
+    #f8f5ec 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

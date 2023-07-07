@@ -1,0 +1,28 @@
+{
+  "language":"en",
+  "header":{
+    "1":"about",
+    "2":"project",
+    "3":"contact"
+  },
+  "presentation": {
+    "title": "Hello, I'm Daniel Mosvich",
+    "presentation": "Hello, I'm",
+    "name": " Daniel Mosvich",
+    "talent": "front-end developer & Digital Artist"
+  },
+  "about": {
+    "title":"about me",
+    "description": "I am a front-end developer and a digital artist with many years of experience. My passion for technology and design has led me to specialize in front-end development. I am constantly learning new technologies to enhance my skills and provide solutions to my clients. Thank you for taking the time to get to know me, and I am excited to see how I can contribute to your future projects."
+  },
+  "projects":{
+    "title":"recent projects"
+  },
+  "contact":{
+    "title":"contact me!",
+    "description":"I am actively searching and available for new opportunities. You can get in touch with me, and I will respond as quickly as possible.",
+    "button":"send me a message!"
+  },
+  "footer":"build by"
+  
+}
