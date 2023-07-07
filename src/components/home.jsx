@@ -11,7 +11,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{duration:1, delay:1}} 
-          className="text-2xl sm:text-4xl"
+          className="text-xl sm:text-4xl"
         >
           {t("presentation.presentation")}
         </motion.h1>
@@ -27,7 +27,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.6 }}
-          className="text-xl sm:text-3xl font-[500]"
+          className="text-md sm:text-3xl font-[500]"
         >
           {t("presentation.talent")}
         </motion.h1>

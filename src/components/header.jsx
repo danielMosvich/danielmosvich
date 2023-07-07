@@ -102,9 +102,7 @@ export default function Header() {
         bg-paper_1/40
         backdrop-blur-sm
         `}
-        onClick={() => {
-          setShow(false);
-        }}
+        onClick={closeSlide}
       >
         <div
           className="animate-slide_right flex flex-col gap-10 bg-paper_1 h-full w-2/3 right-0 absolute items-center justify-center z-40 shadow-2xl"
